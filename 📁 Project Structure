@@ -39,3 +39,66 @@ utils.py → Helper functions like displaying the board, input validation.
 tests/ → Unit tests for each module to ensure correctness.
 
 assets/ → Images, sound effects, icons (for GUI/web version).
+
+🛠 Installation & Setup
+
+Clone the repository:
+
+git clone https://github.com/your-username/tic-tac-toe.git
+cd tic-tac-toe
+
+
+(Optional) Create a virtual environment:
+
+python -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
+
+
+Install dependencies (if any):
+
+pip install -r requirements.txt
+
+▶️ How to Play
+
+Run the game:
+
+python src/main.py
+
+
+Then follow the prompts:
+
+Choose game mode (single-player or two-player)
+
+Enter your moves by selecting grid positions (e.g., 1–9).
+
+First player uses X, second player uses O.
+
+The game ends when someone wins or the board is full.
+
+✅ Example Gameplay
+ X | O | X
+-----------
+ O | X |  
+-----------
+   |   | O
+
+
+Player X wins!
+
+🧪 Running Tests
+pytest tests/
+
+📌 Future Improvements
+
+GUI version with Tkinter or Pygame
+
+Web version with HTML/CSS/JS
+
+Smarter AI with difficulty levels
+
+Online multiplayer
+
+📄 License
+
+This project is open-source under the MIT License.
